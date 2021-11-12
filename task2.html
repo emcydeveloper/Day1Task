@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>objects and its internal representation in Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="header"><h1>Objects and its internal representation in Javascript</h1></div>
+      <div class="imageContainer">
+        <img src="Objects.png" alt="" />
+      </div>
+      <hr />
+      <div class="content">
+        <h1>Objects and Its Internal Representation in JavaScript</h1>
+        <p>
+            First of all, I would pin point that never be confused with JavaScript object and other language object concept they differ a lot internally. so, people who come from different language like Java/c++ they make a biggest mistake to compare with JavaScript object with others.
+        </p>
+        <p>In simple terms. “A JavaScript object is a collection of named values having state and behavior (properties and method)”.</p>
+        <p>For example: Person, car, pen, bike, Personal Computer , Washing Machine etc.</p>
+        <p>Take the case of cars.</p>
+        <p>All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.</p>
+        <p>Let’s have an example of my favorite merc car and list out its properties(Features):</p>
+        <ol>
+            <li>Make: Mercedes</li>
+            <li>Model: C-Class</li>
+            <li>Color: Red</li>
+            <li>Fuel: Diesel</li>
+            <li>Weight: 850kg</li>
+            <li>Mileage: 8Kmpl</li>
+            <li>Rating: 4.5</li>
+        </ol>
+        <p>Taking the above as reference, I'll stress up on objects, Object properties and Methods.</p>
+
+        <h1>1. Objects:</h1>
+        <p>The following code assigns a simple value (Mercedes) to a variable named car:</p>
+        <div Class="examples">
+            <p>var car = "Mercedes";</p>
+        </div>
+
+        <p>Objects are variables too. But objects can contain many values.</p>
+        <p>The following code assigns many values (Mercedes, C-class, White and soo on) to a variable named Car:</p>
+        <div class="examples">
+            <p>var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};</p>
+        </div>
+
+        <p>The values are written as name:value pairs (name and value separated by a colon).</p>
+        <p>Syntax:</p>
+
+        <div class="examples"><p>var <object-name> = {key1: value1, key2: value2,... keyN: valueN};</p></div>
+
+            <p>So, conclusion and definition for JS objects is “JavaScript objects are containers for named values”.</p>
+
+            <h1>2. Object Properties</h1>
+
+            <p>The name:values pairs (in JavaScript objects) are called properties.</p>
+
+            <div class="examples"><p>var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”,Mileage: “8Kmpl”, Rating: 4.5};</p></div>
+
+            <p>From the above snippet, let’s have a look what falls under property and property value:</p>
+            <div class="tableData"></div>
+            <table>
+                <tr><th>Property</th><th>Property Values</th></tr>
+                <tr><td>Make</td><td>Mercedes</td></tr>
+                <tr><td>Model</td><td>C-Class</td></tr>
+                <tr><td>Color</td><td>Red</td></tr>
+                <tr><td>Fuel</td><td>Diesel</td></tr>
+                <tr><td>Weight</td><td>850kg</td></tr>
+                <tr><td>Mileage</td><td>8Kmpl</td></tr>
+                <tr><td>Rating</td><td>4.5</td></tr>
+            </table>
+            <p>The object properties can be different primitive values, other objects and functions.</p>
+            <p>Properties can usually be changed, added, and deleted, but some are read only.</p>
+
+            <h3>The syntax for adding a property to an object is :</h3>
+            <div class="examples"><p>ObjectName.ObjectProperty = propertyValue;</p></div>
+
+            <h3>The syntax for deleting a property from an object is:</h3>
+            <div class="examples"><p>delete ObjectName.ObjectProperty;</p></div>
+
+            <h3>The syntax to access a property from an object is:</h3>
+            <div class="examples"><p>objectName.property // Car.Make<br>
+              //or<br>
+              objectName["property”]    // Car["Make"]<br>
+              //or<br>
+              objectName[expression]   // x = "Make"; Car[x]</p></div>
+
+        <div class="footer"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,7 @@
 .mainContainer{
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 5px;
     background-color: beige;
     
 }
@@ -18,3 +19,67 @@ img{
     border: solid palegreen 1px;
     padding: 2%;
 }
+
+.examples{
+background-color: rgb(197, 182, 182);
+padding: 3px;
+}
+
+table,td,th{
+width: 40%;
+border: solid 2px;
+border-collapse: collapse;
+padding:5px;
+margin-left: auto;
+  margin-right: auto;
+}
+th{
+    background-color: bisque;
+}
+
+.tableData{
+    overflow-x: auto;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+li{
+    padding: 3px;
+}
+
+.menu{
+    margin: 20px;
+    text-align: center;
+  
+}
+
+.items{
+    margin: 20px;
+    border: solid 2px;
+    padding: 30px;
+
+}
+
+button {
+    margin:0 auto;
+    display:block;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  padding: 16px 32px;
+  border: 2px solid #4CAF50;
+
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color:black;
+  }

@@ -1,0 +1,20 @@
+.mainContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: beige;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+img{
+    height: 400px;   
+    width: 100%; 
+}
+
+.content{
+    border: solid palegreen 1px;
+    padding: 2%;
+}
